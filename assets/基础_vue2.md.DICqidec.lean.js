@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,a1 as p}from"./chunks/framework.zPfxmoh3.js";const h=JSON.parse('{"title":"vue2","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/vue2.md","filePath":"基础/vue2.md"}'),e={name:"基础/vue2.md"},t=p("",4),l=[t];function i(c,o,r,d,v,m){return a(),s("div",null,l)}const f=n(e,[["render",i]]);export{h as __pageData,f as default};
