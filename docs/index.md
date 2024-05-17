@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "My Blogs"
-  text: "My Blos Description"
+  name: "My Blog"
+  text: "My Blog Description"
   tagline: My great project tagline
   actions:
     - theme: brand

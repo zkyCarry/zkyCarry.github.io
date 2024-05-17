@@ -14,4 +14,4 @@ git init
 git add -A
 git commit -m 'add'
 
-git push -f git@github.com:zkyCarry/zkyCarry.github.io.git main-blog
+git push -f https://github.com/zkyCarry/zkyCarry.github.io.git master:main-blog
