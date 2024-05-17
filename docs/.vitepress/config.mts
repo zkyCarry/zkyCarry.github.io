@@ -13,10 +13,17 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '基础',
+        collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Html', link: '/基础/html.md' },
+          { text: '浏览器', link: '/基础/浏览器.md' },
+          { text: 'CSS', link: '/基础/css.md' },
+          { text: 'Vue2', link: '/基础/vue2.md' },
+          { text: 'Vue3', link: '/基础/vue3.md' },
+          { text: 'vue-router', link: '/基础/vueRouter.md' },
+          { text: 'pinia', link: '/基础/pinia.md' },
+          { text: 'vuex', link: '/基础/vuex.md' },
         ]
       }
     ],
