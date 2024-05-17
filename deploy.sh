@@ -14,4 +14,5 @@ git init
 git add -A
 git commit -m 'add'
 
+# main-blog分支的名字
 git push -f https://github.com/zkyCarry/zkyCarry.github.io.git master:main-blog
