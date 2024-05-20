@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a1 as r,a2 as h}from"./chunks/framework.BLNEObz3.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"正则表达式/index.md","filePath":"正则表达式/index.md"}'),c={name:"正则表达式/index.md"},s=r("",3),i=[s];function l(_,n,m,d,o,p){return t(),e("div",null,i)}const x=a(c,[["render",l]]);export{b as __pageData,x as default};
