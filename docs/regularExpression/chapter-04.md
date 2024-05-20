@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>chapter04</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/regularExpression.css">
 </head>
 <body>
 	<h1>第4章 使用元字符</h1>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>chapter08</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/regularExpression.css">
 </head>
 <body>
 	<h1>第8章 回溯引用：前后一致匹配</h1>

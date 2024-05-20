@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>chapter07</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/regularExpression.css">
 </head>
 <body>
 	<h1>第7章 使用子表达式</h1>

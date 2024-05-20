@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>chapter02</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/regularExpression.css">
 </head>
 <body>
-<h1>第2章 匹配单个字符</h1>
+<h1>第2章 匹配单个字符xxxx</h1>
 <h3>2.1 匹配纯文本</h3>
 
 <p>

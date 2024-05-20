@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>chapter10</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/regularExpression.css">
 </head>
 <body>
 	<h1>第10章 嵌入条件</h1>

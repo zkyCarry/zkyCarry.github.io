@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>chapter05</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/regularExpression.css">
 </head>
 <body>
 	<h1>第5章 重复匹配</h1>
