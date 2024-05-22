@@ -24,6 +24,7 @@ export default defineConfig({
           { text: 'vue-router', link: '/基础/vueRouter.md' },
           { text: 'pinia', link: '/基础/pinia.md' },
           { text: 'vuex', link: '/基础/vuex.md' },
+          { text: 'ts', link: '/基础/ts.md' },
         ]
       },
       {
