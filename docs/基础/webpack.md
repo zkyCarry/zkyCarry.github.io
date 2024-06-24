@@ -4,6 +4,27 @@ outline: deep
 
 # webpack
 
+## 1.webpack核心概念
+入口(Entry)：Webpack 执行构建的第一步将从 Entry 开始，可以把它理解为应用程序的起点。
+输出(Output)：告诉 Webpack 在哪里输出它所创建的 bundles，以及如何命名这些文件，默认值是 ./dist/main.js。
+加载器(Loaders)：Webpack 只能理解 JavaScript 和 JSON 文件，Loaders 让 Webpack 能够去处理其他类型的文件，并将它们转换为有效模块，以供应用程序使用，以及被添加到依赖图中。
+插件(Plugins)：插件可以用于执行范围更广的任务，如 bundle 优化，资源管理和环境变量注入等。
+模式(Mode)：通过设置 development 或 production 之中的一个，可以启用 Webpack 相应模式下的内置优化。
+优化
+
+### 入口配置：
+1. 单页面：entry: './path/to/my/entry/file.js',
+2. 多页面: entry: {
+    pageOne: './src/pageOne/index.js',
+    pageTwo: './src/pageTwo/index.js',
+    pageThree: './src/pageThree/index.js',
+  },
+3. 第三方库分离 vendor： entry: {
+    main: './src/app.js',
+    vendor: './src/vendor.js',
+  },
+4. 还有其他。
+
 ## 全部
 ```
 1.webpack核心概念
