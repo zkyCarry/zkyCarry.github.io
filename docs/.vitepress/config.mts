@@ -28,6 +28,7 @@ export default defineConfig({
           { text: 'webpack', link: '/基础/webpack.md' },
           { text: 'vue cli', link: '/基础/vueCli.md' },
           { text: 'vite', link: '/基础/vite.md' },
+          { text: 'rollup', link: '/基础/rollup.md' },
         ]
       },
       {
