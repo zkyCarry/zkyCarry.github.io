@@ -1,1 +1,0 @@
-import{_ as i,c as e,o as l,a1 as o}from"./chunks/framework.BLNEObz3.js";const f=JSON.parse('{"title":"浏览器记录","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/浏览器.md","filePath":"基础/浏览器.md"}'),t={name:"基础/浏览器.md"},a=o("",4),r=[a];function p(n,s,c,d,_,m){return l(),e("div",null,r)}const u=i(t,[["render",p]]);export{f as __pageData,u as default};
