@@ -93,6 +93,16 @@ compiler.hooks钩子介绍：https://webpack.docschina.org/api/compiler-hooks/ �
 + tapPromise：用于基于 Promise 的异步操作，回调函数返回一个 Promise。
 ### 模块：
 开发者将程序分解为功能离散的 chunk，并称之为 模块。可以把一些动态载入的模版，打包成专门的chunk。减少一进页面加载的内容。
+### 优化
+#### 1. 缓存，提升二次构建速度。
+#### 2. 代码分割，提取公共代码，减少首屏加载时间。
+#### 3. 动态导入，按需加载。
+#### 4. 减少代码体积，tree-shaking，代码混淆，压缩代码。
+#### 5. 提取css，压缩css
+#### 6. 使用 webpack-bundle-analyzer 插件来分析打包后的文件大小，找出优化空间
+#### 7. 图片压缩
+#### 8.Webpack 5 引入了模块联邦，可以实现不同应用之间的代码共享。
+
 ## 2. 配置示例
 ### 基本配置：
 ```
@@ -110,6 +120,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'source-map', //source map 发布环境不需要。
+  transpileDependencies: ['vue3-lazyload'], //依赖的库也进行js转换，不是特别常用
   module: { //loader配置
     rules: [
       {
@@ -175,3 +186,5 @@ package.json  // package需要配置这个
 	"sideEffects": false,  //表示项目中的所有模块都没有副作用，因此未使用的代码可以安全地删除
 }
 ```
+## 扩展文章
+https://juejin.cn/post/6844904094281236487
