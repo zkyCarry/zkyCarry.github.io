@@ -1,13 +1,4 @@
-import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.BLNEObz3.js";const g=JSON.parse('{"title":"webpack","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/webpack.md","filePath":"基础/webpack.md"}'),e={name:"基础/webpack.md"},l=p(`<h1 id="webpack" tabindex="-1">webpack <a class="header-anchor" href="#webpack" aria-label="Permalink to &quot;webpack&quot;">​</a></h1><h2 id="_1-webpack核心概念" tabindex="-1">1.webpack核心概念 <a class="header-anchor" href="#_1-webpack核心概念" aria-label="Permalink to &quot;1.webpack核心概念&quot;">​</a></h2><ul><li>入口(Entry)：Webpack 执行构建的第一步将从 Entry 开始，可以把它理解为应用程序的起点。</li><li>输出(Output)：告诉 Webpack 在哪里输出它所创建的 bundles，以及如何命名这些文件，默认值是 ./dist/main.js。</li><li>加载器(Loaders)：Webpack 只能理解 JavaScript 和 JSON 文件，Loaders 让 Webpack 能够去处理其他类型的文件，并将它们转换为有效模块，以供应用程序使用，以及被添加到依赖图中。</li><li>插件(Plugins)：插件可以用于执行范围更广的任务，如 bundle 优化，资源管理和环境变量注入等。</li><li>模式(Mode)：通过设置 development 或 production 之中的一个，可以启用 Webpack 相应模式下的内置优化。</li><li>优化</li></ul><h3 id="入口配置" tabindex="-1">入口配置： <a class="header-anchor" href="#入口配置" aria-label="Permalink to &quot;入口配置：&quot;">​</a></h3><ol><li>单页面：entry: &#39;./path/to/my/entry/file.js&#39;,</li><li>多页面: entry: { pageOne: &#39;./src/pageOne/index.js&#39;, pageTwo: &#39;./src/pageTwo/index.js&#39;, pageThree: &#39;./src/pageThree/index.js&#39;, },</li><li>第三方库分离 vendor： entry: { main: &#39;./src/app.js&#39;, vendor: &#39;./src/vendor.js&#39;, },</li><li>还有其他。</li></ol><h2 id="全部" tabindex="-1">全部 <a class="header-anchor" href="#全部" aria-label="Permalink to &quot;全部&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>1.webpack核心概念</span></span>
-<span class="line"><span>入口(Entry)：Webpack 执行构建的第一步将从 Entry 开始，可以把它理解为应用程序的起点。</span></span>
-<span class="line"><span>输出(Output)：告诉 Webpack 在哪里输出它所创建的 bundles，以及如何命名这些文件，默认值是 ./dist/main.js。</span></span>
-<span class="line"><span>加载器(Loaders)：Webpack 只能理解 JavaScript 和 JSON 文件，Loaders 让 Webpack 能够去处理其他类型的文件，并将它们转换为有效模块，以供应用程序使用，以及被添加到依赖图中。</span></span>
-<span class="line"><span>插件(Plugins)：插件可以用于执行范围更广的任务，如 bundle 优化，资源管理和环境变量注入等。</span></span>
-<span class="line"><span>模式(Mode)：通过设置 development 或 production 之中的一个，可以启用 Webpack 相应模式下的内置优化。</span></span>
-<span class="line"><span>优化</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>入口配置：</span></span>
-<span class="line"><span>1. 单页面：entry: &#39;./path/to/my/entry/file.js&#39;,</span></span>
+import{_ as s,c as a,o as n,a1 as p}from"./chunks/framework.BLNEObz3.js";const g=JSON.parse('{"title":"webpack","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/webpack.md","filePath":"基础/webpack.md"}'),e={name:"基础/webpack.md"},l=p(`<h1 id="webpack" tabindex="-1">webpack <a class="header-anchor" href="#webpack" aria-label="Permalink to &quot;webpack&quot;">​</a></h1><h2 id="_1-webpack核心概念" tabindex="-1">1. webpack核心概念 <a class="header-anchor" href="#_1-webpack核心概念" aria-label="Permalink to &quot;1. webpack核心概念&quot;">​</a></h2><ul><li>入口(Entry)：Webpack 执行构建的第一步将从 Entry 开始，可以把它理解为应用程序的起点。</li><li>输出(Output)：告诉 Webpack 在哪里输出它所创建的 bundles，以及如何命名这些文件，默认值是 ./dist/main.js。</li><li>加载器(Loaders)：Webpack 只能理解 JavaScript 和 JSON 文件，Loaders 让 Webpack 能够去处理其他类型的文件，并将它们转换为有效模块，以供应用程序使用，以及被添加到依赖图中。</li><li>插件(Plugins)：插件可以用于执行范围更广的任务，如 bundle 优化，资源管理和环境变量注入等。</li><li>模式(Mode)：通过设置 development 或 production 之中的一个，可以启用 Webpack 相应模式下的内置优化。</li><li>优化</li></ul><h3 id="入口配置" tabindex="-1">入口配置 <a class="header-anchor" href="#入口配置" aria-label="Permalink to &quot;入口配置&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>1. 单页面：entry: &#39;./path/to/my/entry/file.js&#39;,</span></span>
 <span class="line"><span>2. 多页面: entry: {</span></span>
 <span class="line"><span>    pageOne: &#39;./src/pageOne/index.js&#39;,</span></span>
 <span class="line"><span>    pageTwo: &#39;./src/pageTwo/index.js&#39;,</span></span>
@@ -17,10 +8,7 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.BLNEObz3.js";const g
 <span class="line"><span>    main: &#39;./src/app.js&#39;,</span></span>
 <span class="line"><span>    vendor: &#39;./src/vendor.js&#39;,</span></span>
 <span class="line"><span>  },</span></span>
-<span class="line"><span>4. 还有其他。</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>输出配置：</span></span>
-<span class="line"><span>1. 单页面： </span></span>
+<span class="line"><span>4. 还有其他。</span></span></code></pre></div><h3 id="输出配置" tabindex="-1">输出配置： <a class="header-anchor" href="#输出配置" aria-label="Permalink to &quot;输出配置：&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>1. 单页面： </span></span>
 <span class="line"><span>  output: {</span></span>
 <span class="line"><span>    filename: &#39;bundle.js&#39;,</span></span>
 <span class="line"><span>  },</span></span>
@@ -32,24 +20,16 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.BLNEObz3.js";const g
 <span class="line"><span>3. 输出文件的hash, 还有其他的hash方式</span></span>
 <span class="line"><span>output: {</span></span>
 <span class="line"><span>    path: &#39;/home/proj/cdn/assets/[fullhash]&#39;,</span></span>
-<span class="line"><span>    }</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>loader配置： module / rules。 css-loader 是引入的npm包的名字</span></span>
+<span class="line"><span>    }</span></span></code></pre></div><h3 id="loader配置" tabindex="-1">loader配置： <a class="header-anchor" href="#loader配置" aria-label="Permalink to &quot;loader配置：&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span> module / rules。 css-loader 是引入的npm包的名字</span></span>
 <span class="line"><span> module: {</span></span>
 <span class="line"><span>    rules: [</span></span>
 <span class="line"><span>      { test: /\\.css$/, use: &#39;css-loader&#39; },   //  use: [{loader:&#39;css-loader&#39;}] 可配置多个loader</span></span>
 <span class="line"><span>      { test: /\\.ts$/, use: &#39;ts-loader&#39; },</span></span>
 <span class="line"><span>    ],</span></span>
-<span class="line"><span>  },</span></span>
-<span class="line"><span>自定义loader开发：https://webpack.docschina.org/contribute/writing-a-loader/</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>插件配置：</span></span>
-<span class="line"><span>plugins: [</span></span>
+<span class="line"><span>  },</span></span></code></pre></div><p>自定义loader开发：<a href="https://webpack.docschina.org/contribute/writing-a-loader/" target="_blank" rel="noreferrer">https://webpack.docschina.org/contribute/writing-a-loader/</a></p><h3 id="插件" tabindex="-1">插件： <a class="header-anchor" href="#插件" aria-label="Permalink to &quot;插件：&quot;">​</a></h3><h4 id="_1-插件配置" tabindex="-1">1.插件配置： <a class="header-anchor" href="#_1-插件配置" aria-label="Permalink to &quot;1.插件配置：&quot;">​</a></h4><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>plugins: [</span></span>
 <span class="line"><span>    new webpack.ProgressPlugin(),</span></span>
 <span class="line"><span>    new HtmlWebpackPlugin({ template: &#39;./src/index.html&#39; }),</span></span>
-<span class="line"><span>  ],</span></span>
-<span class="line"><span>插件开发：</span></span>
-<span class="line"><span>// MyPlugin.js</span></span>
+<span class="line"><span>  ],</span></span></code></pre></div><h4 id="_2-插件开发" tabindex="-1">2.插件开发 <a class="header-anchor" href="#_2-插件开发" aria-label="Permalink to &quot;2.插件开发&quot;">​</a></h4><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>// MyPlugin.js</span></span>
 <span class="line"><span>class MyPlugin {</span></span>
 <span class="line"><span>  apply(compiler) {</span></span>
 <span class="line"><span>  	//第一个钩子</span></span>
@@ -66,17 +46,7 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.BLNEObz3.js";const g
 <span class="line"><span>  }</span></span>
 <span class="line"><span>}</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>module.exports = MyPlugin;</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>compiler.hooks.done.tap 是钩子，类似生命周期函数，特定的时间点会调用</span></span>
-<span class="line"><span>compiler.hooks钩子介绍：https://webpack.docschina.org/api/compiler-hooks/ 很多钩子</span></span>
-<span class="line"><span>tap vs tapAsync vs tapPromise： (钩子函数的执行方式是同步，异步)</span></span>
-<span class="line"><span>tap：用于同步操作，立即执行回调函数。</span></span>
-<span class="line"><span>tapAsync：用于异步操作，回调函数在完成时需要调用 callback。</span></span>
-<span class="line"><span>tapPromise：用于基于 Promise 的异步操作，回调函数返回一个 Promise。</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>配置：</span></span>
-<span class="line"><span>const path = require(&#39;path&#39;);</span></span>
+<span class="line"><span>module.exports = MyPlugin;</span></span></code></pre></div><h4 id="_3-钩子介绍" tabindex="-1">3.钩子介绍 <a class="header-anchor" href="#_3-钩子介绍" aria-label="Permalink to &quot;3.钩子介绍&quot;">​</a></h4><p>compiler.hooks.done.tap 是钩子，类似生命周期函数，特定的时间点会调用</p><p>compiler.hooks钩子介绍：<a href="https://webpack.docschina.org/api/compiler-hooks/" target="_blank" rel="noreferrer">https://webpack.docschina.org/api/compiler-hooks/</a> 很多钩子</p><h4 id="_4-tap-vs-tapasync-vs-tappromise-钩子函数的执行方式是同步-异步" tabindex="-1">4.tap vs tapAsync vs tapPromise： (钩子函数的执行方式是同步，异步) <a class="header-anchor" href="#_4-tap-vs-tapasync-vs-tappromise-钩子函数的执行方式是同步-异步" aria-label="Permalink to &quot;4.tap vs tapAsync vs tapPromise： (钩子函数的执行方式是同步，异步)&quot;">​</a></h4><ul><li>tap：用于同步操作，立即执行回调函数。</li><li>tapAsync：用于异步操作，回调函数在完成时需要调用 callback。</li><li>tapPromise：用于基于 Promise 的异步操作，回调函数返回一个 Promise。</li></ul><h3 id="模块" tabindex="-1">模块： <a class="header-anchor" href="#模块" aria-label="Permalink to &quot;模块：&quot;">​</a></h3><p>开发者将程序分解为功能离散的 chunk，并称之为 模块。可以把一些动态载入的模版，打包成专门的chunk。减少一进页面加载的内容。</p><h2 id="配置示例" tabindex="-1">配置示例 <a class="header-anchor" href="#配置示例" aria-label="Permalink to &quot;配置示例&quot;">​</a></h2><h3 id="基本配置" tabindex="-1">基本配置： <a class="header-anchor" href="#基本配置" aria-label="Permalink to &quot;基本配置：&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>const path = require(&#39;path&#39;);</span></span>
 <span class="line"><span>const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;);</span></span>
 <span class="line"><span>const { CleanWebpackPlugin } = require(&#39;clean-webpack-plugin&#39;);</span></span>
 <span class="line"><span>const MiniCssExtractPlugin = require(&#39;mini-css-extract-plugin&#39;);</span></span>
@@ -145,14 +115,8 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.BLNEObz3.js";const g
 <span class="line"><span>    port: 9000,</span></span>
 <span class="line"><span>    hot: true, // 启用 HMR</span></span>
 <span class="line"><span>  },</span></span>
-<span class="line"><span>};</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>Tree Shaking 开启：</span></span>
-<span class="line"><span>mode: &#39;production&#39; //生产环境自动开启 Tree Shaking</span></span>
+<span class="line"><span>};</span></span></code></pre></div><h3 id="tree-shaking-开启" tabindex="-1">Tree Shaking 开启： <a class="header-anchor" href="#tree-shaking-开启" aria-label="Permalink to &quot;Tree Shaking 开启：&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>mode: &#39;production&#39; //生产环境自动开启 Tree Shaking</span></span>
 <span class="line"><span>package.json  // package需要配置这个</span></span>
 <span class="line"><span>{</span></span>
 <span class="line"><span>	&quot;sideEffects&quot;: false,  //表示项目中的所有模块都没有副作用，因此未使用的代码可以安全地删除</span></span>
-<span class="line"><span>}</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>模块：</span></span>
-<span class="line"><span>开发者将程序分解为功能离散的 chunk，并称之为 模块。可以把一些动态载入的模版，打包成专门的chunk。减少一进页面加载的内容。</span></span></code></pre></div>`,7),i=[l];function c(t,o,r,d,u,h){return a(),n("div",null,i)}const k=s(e,[["render",c]]);export{g as __pageData,k as default};
+<span class="line"><span>}</span></span></code></pre></div>`,27),i=[l];function c(t,o,r,d,h,u){return n(),a("div",null,i)}const m=s(e,[["render",c]]);export{g as __pageData,m as default};
