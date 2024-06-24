@@ -87,7 +87,7 @@ module.exports = MyPlugin;
 compiler.hooks.done.tap 是钩子，类似生命周期函数，特定的时间点会调用
 
 compiler.hooks钩子介绍：https://webpack.docschina.org/api/compiler-hooks/ 很多钩子
-#### 4.tap vs tapAsync vs tapPromise： (钩子函数的执行方式是同步，异步)
+#### 4.执行方式 (钩子函数的执行方式是同步，异步)
 + tap：用于同步操作，立即执行回调函数。
 + tapAsync：用于异步操作，回调函数在完成时需要调用 callback。
 + tapPromise：用于基于 Promise 的异步操作，回调函数返回一个 Promise。
