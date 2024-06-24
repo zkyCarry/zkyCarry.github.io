@@ -93,7 +93,7 @@ compiler.hooks钩子介绍：https://webpack.docschina.org/api/compiler-hooks/ �
 + tapPromise：用于基于 Promise 的异步操作，回调函数返回一个 Promise。
 ### 模块：
 开发者将程序分解为功能离散的 chunk，并称之为 模块。可以把一些动态载入的模版，打包成专门的chunk。减少一进页面加载的内容。
-## 配置示例
+## 2. 配置示例
 ### 基本配置：
 ```
 const path = require('path');
