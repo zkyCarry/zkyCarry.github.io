@@ -27,6 +27,7 @@ export default defineConfig({
           { text: 'ts', link: '/基础/ts.md' },
           { text: 'webpack', link: '/基础/webpack.md' },
           { text: 'vue cli', link: '/基础/vueCli.md' },
+          { text: 'vite', link: '/基础/vite.md' },
         ]
       },
       {
