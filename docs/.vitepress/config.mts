@@ -25,6 +25,7 @@ export default defineConfig({
           { text: 'pinia', link: '/基础/pinia.md' },
           { text: 'vuex', link: '/基础/vuex.md' },
           { text: 'ts', link: '/基础/ts.md' },
+          { text: 'webpack', link: '/基础/webpack.md' },
         ]
       },
       {
