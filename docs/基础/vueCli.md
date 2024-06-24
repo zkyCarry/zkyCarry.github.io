@@ -19,6 +19,7 @@ Vue CLI 实际上是对 Webpack 的一个封装，它使用 Webpack 作为底层
 vue create hello-world
 ```
 会进行一些选项选择， 选项可以存储一个 Preset。  
+<img src="/vue-cli.jpg" style="max-width: 68%" />
 
 ### Preset：
 Preset 支持远程加载。  里面可以指定一些自定义的插件。  
