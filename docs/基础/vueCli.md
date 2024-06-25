@@ -13,7 +13,20 @@ Vue CLI 实际上是对 Webpack 的一个封装，它使用 Webpack 作为底层
 可扩展性：如果需要自定义 Webpack 配置，Vue CLI 允许通过 vue.config.js 文件进行配置，或者使用 Vue CLI 插件来扩展功能。  
 插件化：Vue CLI 的插件系统可以在项目初始化时或之后添加各种功能，而这些插件很多都是基于 Webpack 的。
 
+### 使用 ~ 的场景
+#### 1. 在 CSS/SCSS 文件中引入资源：
+```
+.background {
+  background-image: url('~@/assets/images/background.png');
+}
 
+```
+#### 2. 在 Vue 模板中引入资源：
+```
+<img src="~@/assets/indexPage/bottom_ornament.png" alt=""/>
+
+```
+使用 ~ 来引入资源路径可以确保 Webpack 按照模块解析的方式来处理路径，避免相对路径解析错误的问题。@ 则是一个别名，通常指向项目的 src 目录，通过这种方式可以简化路径的书写，使代码更清晰易读。
 ### 使用：
 ```
 vue create hello-world
