@@ -32,6 +32,14 @@ export default defineConfig({
         ]
       },
       {
+        text: '记录',
+        collapsed: false,
+        items: [
+          { text: '域名劫持', link: '/记录/域名劫持.md' },
+          { text: '服务端名词', link: '/记录/服务端名词.md' },
+        ]
+      },
+      {
         text: '正则表达式',
         collapsed: true,
         link: '/regularExpression/index.md',
