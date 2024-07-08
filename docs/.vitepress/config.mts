@@ -35,6 +35,7 @@ export default defineConfig({
         text: '记录',
         collapsed: false,
         items: [
+          {text: '如何向Ai大模型正确提问', link: '/记录/如何向Ai大模型正确提问.md' },
           { text: '域名劫持', link: '/记录/域名劫持.md' },
           { text: '服务端名词', link: '/记录/服务端名词.md' },
         ]
