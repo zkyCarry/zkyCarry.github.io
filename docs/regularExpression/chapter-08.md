@@ -110,5 +110,24 @@ $1\U$2\E$3<br /><br />
 </code>
 </p>
 
+## 具体应用，匹配 import 引入
+<code>
+const importRegex = /import\s+.*?\s+from\s+['"](.*?)['"];?/g; <br />
+let match; <br />
+// 匹配 import 语句 <br />
+while ((match = importRegex.exec(content)) !== null) { <br />
+imports.add(match[1]); <br />
+}<br />
+</code>
+
+在正则表达式中，圆括号 () 用于定义捕获组。捕获组的作用是将匹配的子字符串存储起来，以便后续使用。每个捕获组匹配的内容会被存储在一个数组中，数组的第一个元素（match[0]）总是整个正则表达式的匹配结果，而后续的元素（match[1], match[2] 等）分别对应每个捕获组的匹配结果。  
+
+当正则表达式 importRegex 匹配到 import something from 'module-name'; 时，exec 方法返回的数组 match 会包含以下内容：   
+match[0] = "import something from 'module-name';"   
+match[1] = "module-name"  
+
+match[0] 是整个匹配的字符串，即 import something from 'module-name';。  
+match[1] 是第一个捕获组匹配的内容，即 module-name。  
+
 </body>
 </html>
