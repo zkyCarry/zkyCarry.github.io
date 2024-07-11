@@ -21,6 +21,7 @@ export default defineConfig({
           { text: 'CSS', link: '/基础/css.md' },
           { text: 'Vue2', link: '/基础/vue2.md' },
           { text: 'Vue3', link: '/基础/vue3.md' },
+          { text: 'react', link: '/基础/react.md' },
           { text: 'vue-router', link: '/基础/vueRouter.md' },
           { text: 'pinia', link: '/基础/pinia.md' },
           { text: 'vuex', link: '/基础/vuex.md' },
