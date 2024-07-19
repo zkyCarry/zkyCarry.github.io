@@ -30,6 +30,7 @@ export default defineConfig({
           { text: 'vue cli', link: '/基础/vueCli.md' },
           { text: 'vite', link: '/基础/vite.md' },
           { text: 'rollup', link: '/基础/rollup.md' },
+          { text: 'scss', link: '/基础/scss.md' },
         ]
       },
       {
