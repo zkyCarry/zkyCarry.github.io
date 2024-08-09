@@ -31,6 +31,7 @@ export default defineConfig({
           { text: 'vite', link: '/基础/vite.md' },
           { text: 'rollup', link: '/基础/rollup.md' },
           { text: 'scss', link: '/基础/scss.md' },
+          { text: '动画', link: '/基础/动画.md' },
         ]
       },
       {
