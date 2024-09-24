@@ -32,6 +32,8 @@ export default defineConfig({
           { text: 'rollup', link: '/基础/rollup.md' },
           { text: 'scss', link: '/基础/scss.md' },
           { text: '动画', link: '/基础/动画.md' },
+          { text: '视频', link: '/基础/视频.md' },
+          { text: 'npm', link: '/基础/npm.md' },
         ]
       },
       {
