@@ -83,7 +83,7 @@ div {
 22. 盒模型： margin border padding width hight
 23. 响应式设计： 移动端有限， @media 媒体查询， 设置meta  width：device-width， initial-scale=1； user-scalabel=no； <meta name="viewport" content="width:750, user-scalable=no" > 陌陌。
 24. img标签， 不同的分辨率可以使用不同过得图片 img srcset; img{max-width: 100%}
-25. reset.css 有库。 normalize.css
+25. reset.css 有库。 normalize.css， 去掉浏览器默认的一些格式。
 26. bem 命名 -连字符  __双下划线子元素 一种状态 双横线
 27. css模块，写的时候分开，打包的时候合在一起。
 28. 整理自己的css框架，别完全使用别人的。
