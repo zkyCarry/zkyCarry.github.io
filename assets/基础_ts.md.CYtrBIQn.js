@@ -1,4 +1,4 @@
-import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.D01xxF7t.js";const y=JSON.parse('{"title":"ts","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/ts.md","filePath":"基础/ts.md"}'),e={name:"基础/ts.md"},l=p(`<h1 id="ts" tabindex="-1">ts <a class="header-anchor" href="#ts" aria-label="Permalink to &quot;ts&quot;">​</a></h1><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>1. interface 声明对象\\ any任何类型</span></span>
+import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.D01xxF7t.js";const g=JSON.parse('{"title":"ts","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/ts.md","filePath":"基础/ts.md"}'),e={name:"基础/ts.md"},l=p(`<h1 id="ts" tabindex="-1">ts <a class="header-anchor" href="#ts" aria-label="Permalink to &quot;ts&quot;">​</a></h1><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>1. interface 声明对象\\ any任何类型</span></span>
 <span class="line"><span>interface User {</span></span>
 <span class="line"><span>  name: string;</span></span>
 <span class="line"><span>  id: number;</span></span>
@@ -55,7 +55,7 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.D01xxF7t.js";const y
 <span class="line"><span>16. declare 告诉编辑器这个类型存在。 在 .d.ts中加入，可以防止编辑器报红。</span></span>
 <span class="line"><span>17. symbol 唯一性。 独一无二的。 Symbol还带一些操作函数。</span></span>
 <span class="line"><span>let sym1 = Symbol();</span></span>
-<span class="line"><span>let sym2 = Symbol(&quot;key&quot;); let sym3 = Symbol(&quot;key&quot;); sym2 === sym3; // false</span></span>
+<span class="line"><span>let sym2 = Symbol(&quot;key&quot;); let sym3 = Symbol(&quot;key&quot;); sym2 === sym3; // false， object里面的key是symbol类型，for in不会遍历到这个属性，可以减少误操作。</span></span>
 <span class="line"><span>18. ts类型大小写区别 String 与 string。 声明一般使用小写。 大写代表 ts的对象。</span></span>
 <span class="line"><span>19. ts的库。一般@types/库名 是库的ts声明 、 npm install --save-dev @types/lodash  </span></span>
 <span class="line"><span>20. ts中的特殊符号</span></span>
@@ -64,6 +64,6 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.D01xxF7t.js";const y
 <span class="line"><span>|  联合类型一个值，可能有几个类型  let strs: number | string[] | null</span></span>
 <span class="line"><span>&amp;  交叉类型。用于组合多个类型成一个类型。 type ReadWriteFile = ReadableStream &amp; WritableStream;</span></span>
 <span class="line"><span>&lt;Type&gt;   泛型。   function identity&lt;Type&gt;(arg: Type): Type { return arg; }</span></span>
-<span class="line"><span>!  非空断言操作符。告诉TypeScript编译器，对象后面的属性或变量不会为null或undefined</span></span>
+<span class="line"><span>!  非空断言操作符。告诉TypeScript编译器，对象后面的属性或变量不会为null或undefined。 myElement!.style.backgroundColor = &quot;red&quot;;  //告诉编辑器 myElement 肯定不会是null，减少报红色。</span></span>
 <span class="line"><span>as  将某个值视为特定的类型  let someValue: any = &quot;this is a string&quot;;  let strLength: number = (someValue as string).length;</span></span>
-<span class="line"><span>readonly  只读属性.  readonly x: number;</span></span></code></pre></div>`,2),t=[l];function i(c,o,r,u,d,m){return a(),n("div",null,t)}const f=s(e,[["render",i]]);export{y as __pageData,f as default};
+<span class="line"><span>readonly  只读属性.  readonly x: number;</span></span></code></pre></div>`,2),t=[l];function i(c,o,r,u,d,m){return a(),n("div",null,t)}const f=s(e,[["render",i]]);export{g as __pageData,f as default};
