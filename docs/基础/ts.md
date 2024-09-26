@@ -61,7 +61,7 @@ namespace Validation {
 16. declare 告诉编辑器这个类型存在。 在 .d.ts中加入，可以防止编辑器报红。
 17. symbol 唯一性。 独一无二的。 Symbol还带一些操作函数。
 let sym1 = Symbol();
-let sym2 = Symbol("key"); let sym3 = Symbol("key"); sym2 === sym3; // false
+let sym2 = Symbol("key"); let sym3 = Symbol("key"); sym2 === sym3; // false， object里面的key是symbol类型，for in不会遍历到这个属性，可以减少误操作。
 18. ts类型大小写区别 String 与 string。 声明一般使用小写。 大写代表 ts的对象。
 19. ts的库。一般@types/库名 是库的ts声明 、 npm install --save-dev @types/lodash  
 20. ts中的特殊符号
@@ -70,7 +70,7 @@ let sym2 = Symbol("key"); let sym3 = Symbol("key"); sym2 === sym3; // false
 |  联合类型一个值，可能有几个类型  let strs: number | string[] | null
 &  交叉类型。用于组合多个类型成一个类型。 type ReadWriteFile = ReadableStream & WritableStream;
 <Type>   泛型。   function identity<Type>(arg: Type): Type { return arg; }
-!  非空断言操作符。告诉TypeScript编译器，对象后面的属性或变量不会为null或undefined
+!  非空断言操作符。告诉TypeScript编译器，对象后面的属性或变量不会为null或undefined。 myElement!.style.backgroundColor = "red";  //告诉编辑器 myElement 肯定不会是null，减少报红色。
 as  将某个值视为特定的类型  let someValue: any = "this is a string";  let strLength: number = (someValue as string).length;
 readonly  只读属性.  readonly x: number;
 ```
