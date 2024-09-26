@@ -19,7 +19,7 @@ CSS基本介绍
 3.
 继承：文字和表格类的。 
 主动继承 属性：inherit；
-4. rem root节点下字体大小 font-size:16px;
+4. rem root节点下字体大小 font-size:16px;  em是父节点的font-size
 :root {
 	font-s
 }
@@ -57,7 +57,8 @@ overflow：auto。hidden/ display：inline-blcok；  float：left，right。 设
 15. flex 布局
 父亲， display：flex； 子集 :last-child{margin-left:auto} 最后一额高  auto代表自动适应，会把父级填满。 margin： 0 auto； 剧中。
 子类： flex 缩写： flex-grow 比例  flex-shrink(可缩放) flex-basis。默认： 1，1 0；  flex-grow：2, 两倍 其他一倍， flex-shrink 是否缩放 0 不缩放。  self-algin。
-justify-content 主轴对齐， align-items 横轴对齐。 flex-direction： 设置主轴横轴。   flex-wrap：no-warp； wrap-revese。 
+justify-content 主轴对齐， align-items 横轴对齐。  flex-direction： 设置主轴横轴。   flex-wrap：no-warp； wrap-revese。 
+align-content: stretch；针对多行的横轴对齐。 默认 stretch：拉伸。 align-content: flex-start;就会去掉被拉伸的情况，(这里做监控墙的时候有被坑过)
 子类：flex-order 数值越小越靠前。
 flex:1; 是 flex：1 1 0; 简写。如果其他的都有设置了with， flex:1 这个元素会会自动填充剩下的空间。(自适应)
 
