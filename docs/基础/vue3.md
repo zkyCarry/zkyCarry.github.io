@@ -98,8 +98,8 @@ onUpdated()    注册一个回调函数，在组件因为响应式状态变更�
 onBeforeUnmount() 注册一个钩子，在组件实例被卸载之前调用。
 onUnmounted()  注册一个回调函数，在组件实例被卸载之后调用。
 onErrorCatured()  注册一个钩子，在捕获了后代组件传递的错误时调用。
-onRenderTracked()  (开发调试)注册一个调试钩子，当组件渲染过程中追踪到响应式依赖时调用。
-onRenderTriggered() (开发调试) 注册一个调试钩子，当响应式依赖的变更触发了组件渲染时调用。
+onRenderTracked()  (开发调试)注册一个调试钩子， 用于追踪组件在渲染过程中依赖的响应式数据。
+onRenderTriggered() (开发调试) 注册一个调试钩子，用于追踪组件重新渲染时响应式数据的变化。
 onActivated()      <KeepAlive> 组件激活时调用。
 onDeactivated()    <KeepAlive> 组件失活时调用。
 onServerPrefetch()  注册一个异步函数，在组件实例在服务器上被渲染之前调用。
@@ -158,7 +158,7 @@ v-memo <div v-memo="[valueA, valueB]"> 如果数组里的每个值都与最后�
 只有当该项的被选中状态改变时才需要更新，这使得每个选中状态没有变的项能完全重用之前的 vnode 并跳过差异比较。
 注意：当搭配 v-for 使用 v-memo，确保两者都绑定在同一个元素上
 
-v-cloak 用于隐藏尚未完成编译的 DOM 模板。
+v-cloak 用于隐藏尚未完成编译的 DOM 模板。 (只能隐藏，<Suspense>可以添加备用内容)
 //css
 [v-cloak] {
   display: none;
