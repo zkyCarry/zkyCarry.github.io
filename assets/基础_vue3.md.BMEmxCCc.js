@@ -89,8 +89,8 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.D01xxF7t.js";const f
 <span class="line"><span>onBeforeUnmount() 注册一个钩子，在组件实例被卸载之前调用。</span></span>
 <span class="line"><span>onUnmounted()  注册一个回调函数，在组件实例被卸载之后调用。</span></span>
 <span class="line"><span>onErrorCatured()  注册一个钩子，在捕获了后代组件传递的错误时调用。</span></span>
-<span class="line"><span>onRenderTracked()  (开发调试)注册一个调试钩子，当组件渲染过程中追踪到响应式依赖时调用。</span></span>
-<span class="line"><span>onRenderTriggered() (开发调试) 注册一个调试钩子，当响应式依赖的变更触发了组件渲染时调用。</span></span>
+<span class="line"><span>onRenderTracked()  (开发调试)注册一个调试钩子， 用于追踪组件在渲染过程中依赖的响应式数据。</span></span>
+<span class="line"><span>onRenderTriggered() (开发调试) 注册一个调试钩子，用于追踪组件重新渲染时响应式数据的变化。</span></span>
 <span class="line"><span>onActivated()      &lt;KeepAlive&gt; 组件激活时调用。</span></span>
 <span class="line"><span>onDeactivated()    &lt;KeepAlive&gt; 组件失活时调用。</span></span>
 <span class="line"><span>onServerPrefetch()  注册一个异步函数，在组件实例在服务器上被渲染之前调用。</span></span>
@@ -149,7 +149,7 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.D01xxF7t.js";const f
 <span class="line"><span>只有当该项的被选中状态改变时才需要更新，这使得每个选中状态没有变的项能完全重用之前的 vnode 并跳过差异比较。</span></span>
 <span class="line"><span>注意：当搭配 v-for 使用 v-memo，确保两者都绑定在同一个元素上</span></span>
 <span class="line"><span></span></span>
-<span class="line"><span>v-cloak 用于隐藏尚未完成编译的 DOM 模板。</span></span>
+<span class="line"><span>v-cloak 用于隐藏尚未完成编译的 DOM 模板。 (只能隐藏，&lt;Suspense&gt;可以添加备用内容)</span></span>
 <span class="line"><span>//css</span></span>
 <span class="line"><span>[v-cloak] {</span></span>
 <span class="line"><span>  display: none;</span></span>
@@ -163,7 +163,7 @@ import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.D01xxF7t.js";const f
 <span class="line"><span>&lt;TransitionGroup&gt; 为列表中的多个元素或组件提供过渡效果。</span></span>
 <span class="line"><span>&lt;KeepAlive&gt; 缓存包裹在其中的动态切换组件。</span></span>
 <span class="line"><span>&lt;Teleport&gt;  将其插槽内容渲染到 DOM 中的另一个位置。 比如再模态弹出指定再body上弹出。</span></span>
-<span class="line"><span>&lt;Suspense&gt;。用于协调对组件树中嵌套的异步依赖的处理。 ？？还在实验阶段</span></span>
+<span class="line"><span>&lt;Suspense&gt;。用于协调对组件树中嵌套的异步依赖的处理。 加载组件，没加载完显示备用内容，加载完显示组件内容。比如：骨架显示，加载成功显示正常内容。</span></span>
 <span class="line"><span>特殊元素 </span></span>
 <span class="line"><span>&lt;component&gt;  &lt;component :is=&quot;view&quot; /&gt;</span></span>
 <span class="line"><span>&lt;slot&gt;   表示模板中的插槽内容出口。</span></span>
