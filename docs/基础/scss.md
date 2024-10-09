@@ -31,7 +31,7 @@ scss 相当于一门css的编程语言。
 
 + 声明变量$符， 一些关键字 @符号。 $xx: #fff; 
 
-+ @extern 是继承。 
++ @extern 是导出，使用。 
 ``` scss
 .message {
   border: 1px solid #ccc;
