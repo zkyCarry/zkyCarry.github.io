@@ -4,7 +4,7 @@ outline: deep
 
 # oclif 命令行库
 ## 应用
-公司用这个oclif库，来生成vue3的工程
+公司用这个oclif库，来生成vue3的工程，主要通过选择，来执行一些拷贝替换操作。
 
 ## 文档
 github：https://github.com/oclif/oclif  
