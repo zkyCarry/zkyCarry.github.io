@@ -3,6 +3,9 @@ outline: deep
 ---
 
 # oclif 命令行库
+## 应用
+公司用这个oclif库，来生成vue3的工程
+
 ## 文档
 github：https://github.com/oclif/oclif  
 中文文档：https://www.cosmolau.top/docs/oclif/zh/docs/introduction  
