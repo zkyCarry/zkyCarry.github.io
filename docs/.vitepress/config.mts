@@ -34,6 +34,7 @@ export default defineConfig({
           { text: '动画', link: '/基础/动画.md' },
           { text: '视频', link: '/基础/视频.md' },
           { text: 'npm', link: '/基础/npm.md' },
+          {text: 'js-promise', link: '/基础/js-promise.md'}
         ]
       },
       {
@@ -44,6 +45,7 @@ export default defineConfig({
           { text: '域名劫持', link: '/记录/域名劫持.md' },
           { text: '服务端名词', link: '/记录/服务端名词.md' },
           { text: 'oclif 命令行库', link: '/记录/oclif.md' },
+          { text: 'uni-app学习记录', link: '/记录/uni-app.md' },
         ]
       },
       {
