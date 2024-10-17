@@ -91,4 +91,10 @@ import{_ as s,c as a,o as i,a1 as n}from"./chunks/framework.D01xxF7t.js";const g
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">35. scss @mixin @include @extend 继承。 @for @if。.xx{&amp;。xxx 控制当前节点有效}。 .xx {.xxx 控制子节点的}  </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">36。 近大远小。 设置透视，perspective 子类可以共享父亲级别。 rotateX rotateY。 </span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">37. 优先级 ！import  行内样式 id选择器， 类选择器， 通配符选择器。 伪类优先级和类选择器一样。</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">38. 主要应用在自适应的网页：双飞翼：三栏布局，两边固定宽度，中间内容自适应宽度。 圣杯：包含页头和页脚。中间是双飞翼。</span></span></code></pre></div>`,4),t=[p];function e(E,h,k,r,c,d){return i(),a("div",null,t)}const y=s(l,[["render",e]]);export{g as __pageData,y as default};
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">38. 主要应用在自适应的网页：双飞翼：三栏布局，两边固定宽度，中间内容自适应宽度。 圣杯：包含页头和页脚。中间是双飞翼。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">39. env()  env函数用于css访问环境变量。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">使用：padding-top: env(safe-area-inset-top, 20px);  safe-area-inset-top 变量不可用，浏览器会使用 20px 作为备用值。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">1. env(safe-area-inset-top): 设备顶部安全区域的大小。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">2. env(safe-area-inset-right): 设备右侧安全区域的大小。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">3. env(safe-area-inset-bottom): 设备底部安全区域的大小。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">4. env(safe-area-inset-left): 设备左侧安全区域的大小。</span></span></code></pre></div>`,4),t=[p];function e(E,h,k,r,d,c){return i(),a("div",null,t)}const y=s(l,[["render",e]]);export{g as __pageData,y as default};
