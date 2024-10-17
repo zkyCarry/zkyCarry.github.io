@@ -65,4 +65,4 @@ onTabItemTap：点击 tab 时触发。
 ```
 + 9. tabbar配置，底部导航栏。 https://uniapp.dcloud.net.cn/collocation/pages.json#tabbar  
 + 10. vue3自动引入插件，unplugin-auto-import。 https://github.com/antfu/unplugin-auto-import。那在页面中再不用写 import
-
++ 11. 微信小程序请求报错，需要在微信小程序开发工具中设置： 详情(右边)-》本地设置-》勾选 不校验合法域名、web-view（业务域名）、TLS 版本以及 HTTPS 证书。
