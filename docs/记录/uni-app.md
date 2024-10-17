@@ -66,3 +66,8 @@ onTabItemTap：点击 tab 时触发。
 + 9. tabbar配置，底部导航栏。 https://uniapp.dcloud.net.cn/collocation/pages.json#tabbar  
 + 10. vue3自动引入插件，unplugin-auto-import。 https://github.com/antfu/unplugin-auto-import。那在页面中再不用写 import
 + 11. 微信小程序请求报错，需要在微信小程序开发工具中设置： 详情(右边)-》本地设置-》勾选 不校验合法域名、web-view（业务域名）、TLS 版本以及 HTTPS 证书。
++ 12. 微信平台登陆：https://mp.weixin.qq.com。 选择小程序，填写相应信息，生成appid。然后在HbuilderX中配置manifest.json文件。选微信小程序-》改appid。 
++ 13. 微信小程序备案要花30块钱，可以不着急备案，等上线了再备案。
++ 14. HBuilderX中，运行是调试，发行是发布，勾选压缩代码。打包后会打开微信小程序工具，点击上传，可以上传到微信的公共平台，可以真机直接预览，调试没问题之后，然后再后台提交审核。
++ 15. http的请求域名，和cdn的图片域名，需要在微信小程序后台配置。 (开发管理-》开发设置-》服务器域名-》修改request合法域名，uploadFile合法域名，downloadFile合法域名。)
++ 16. 发布android，也可以直接在Hbuilder中发布，需要天app图标。 具体可以看 https://www.bilibili.com/video/BV1Yg4y127Fp?p=115&spm_id_from=pageDriver&vd_source=5fbc3fd25115452d7f726122d9292ece
