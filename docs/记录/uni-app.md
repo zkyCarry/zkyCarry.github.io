@@ -6,6 +6,9 @@ outline: deep
 ## 文档
 官方文档：https://uniapp.dcloud.net.cn/
 
+## 源代码
+https://github.com/zkyCarry/uni-app-develop/tree/main  
+
 ## 记录
 + 1. 安装 HBuilder 官方的开发工具，打包也需要，肯定要装。 https://hx.dcloud.net.cn/Tutorial/install/macosx  (HBuilder 创建项目时可以选vue3)
 + 2. 安装微信开发者工具，浏览小程序时候需要。 (HBuilder->运行-》运行配置-》上面有个哥平台小程序IDE的下载地址。)  
