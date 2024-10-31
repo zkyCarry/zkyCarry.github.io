@@ -46,6 +46,8 @@ export default defineConfig({
           { text: '服务端名词', link: '/记录/服务端名词.md' },
           { text: 'oclif 命令行库', link: '/记录/oclif.md' },
           { text: 'uni-app学习记录', link: '/记录/uni-app.md' },
+          { text: '使用mysql', link: '/记录/使用mysql.md' },
+          { text: 'git-submodule', link: '/记录/git-submodule.md' },
         ]
       },
       {
