@@ -49,6 +49,7 @@ export default defineConfig({
           { text: 'uni-app学习记录', link: '/记录/uni-app.md' },
           { text: '使用mysql', link: '/记录/使用mysql.md' },
           { text: 'git-submodule', link: '/记录/git-submodule.md' },
+          { text: '快速从unpkg拿到某个库的js文件', link: '/记录/快速从unpkg拿到某个库的js文件.md' },
         ]
       },
       {
