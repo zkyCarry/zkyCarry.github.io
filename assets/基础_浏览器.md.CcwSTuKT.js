@@ -1,5 +1,5 @@
 import{_ as a,c as e,o as s,a1 as i}from"./chunks/framework.a2TuW1qh.js";const m=JSON.parse('{"title":"浏览器记录","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/浏览器.md","filePath":"基础/浏览器.md"}'),n={name:"基础/浏览器.md"},l=i(`<h1 id="浏览器记录" tabindex="-1">浏览器记录 <a class="header-anchor" href="#浏览器记录" aria-label="Permalink to &quot;浏览器记录&quot;">​</a></h1><p>浏览器基本介绍</p><h2 id="全部" tabindex="-1">全部 <a class="header-anchor" href="#全部" aria-label="Permalink to &quot;全部&quot;">​</a></h2><ol><li>缓存： 协商缓存，强制缓存</li></ol><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>响应头：Cache-Control, Expires, Etag, Last-Modified</span></span>
-<span class="line"><span>Expires: 缓存过期时间，http1.0。 Cache-Control是1.1加的，优先级高。</span></span>
+<span class="line"><span>Expires: 缓存过期时间(是绝对时间，不同时区什么可能会不准)，http1.0。 Cache-Control是1.1加的，优先级高。</span></span>
 <span class="line"><span>Cache-Control: 控制缓存规则。 public 都缓存， private 只在客户端缓存，no-cache 强制协商缓存，no-store 不缓存 max-age=600 缓存内存在600秒后失效。</span></span>
 <span class="line"><span></span></span>
 <span class="line"><span>强制缓存优先于协商缓存进行, 协商缓存是强制缓存失效后，浏览器带标识向服务端请求，由服务端判断是否使用本地缓存。</span></span>
