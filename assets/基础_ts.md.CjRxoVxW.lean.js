@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a1 as p}from"./chunks/framework.Bk1mwsJI.js";const g=JSON.parse('{"title":"ts","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/ts.md","filePath":"基础/ts.md"}'),e={name:"基础/ts.md"},l=p("",2),t=[l];function i(c,o,r,u,d,m){return a(),n("div",null,t)}const f=s(e,[["render",i]]);export{g as __pageData,f as default};

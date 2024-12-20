@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.PM4xAEU8.js";const c=JSON.parse('{"title":"vite","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/vite.md","filePath":"基础/vite.md"}'),l={name:"基础/vite.md"},t=n("",30),e=[t];function p(h,k,r,d,E,o){return a(),i("div",null,e)}const y=s(l,[["render",p]]);export{c as __pageData,y as default};

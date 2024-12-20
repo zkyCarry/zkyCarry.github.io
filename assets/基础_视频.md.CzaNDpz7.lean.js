@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as t,a1 as a}from"./chunks/framework.PM4xAEU8.js";const c=JSON.parse('{"title":"视频","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/视频.md","filePath":"基础/视频.md"}'),e={name:"基础/视频.md"},r=a("",29),o=[r];function s(n,h,m,g,u,d){return t(),i("div",null,o)}const b=l(e,[["render",s]]);export{c as __pageData,b as default};
