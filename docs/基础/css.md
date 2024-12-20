@@ -5,6 +5,11 @@ outline: deep
 # CSS
 CSS基本介绍
 
+## will-change
+```
+will-change: transform; //默认值是auto，是告诉浏览这个节点可能会发生什么变化，浏览器会提前分配和优化资源，节点加
+入 will-change 后，元素会被提升单独的复合层(影响子元素)。 如果所有节点都加入will-change，每个都创建一个复合层，反而更会影响性能，根据情况，只需要把动画相关的节点加入 will-change: transform;。
+```
 ## 全部
 ``` html
 1. css 深入解析
