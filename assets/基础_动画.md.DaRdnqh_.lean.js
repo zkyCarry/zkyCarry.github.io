@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,a1 as i}from"./chunks/framework.a2TuW1qh.js";const u=JSON.parse('{"title":"动画","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/动画.md","filePath":"基础/动画.md"}'),e={name:"基础/动画.md"},t=i("",17),l=[t];function p(h,r,o,c,k,d){return n(),a("div",null,l)}const m=s(e,[["render",p]]);export{u as __pageData,m as default};

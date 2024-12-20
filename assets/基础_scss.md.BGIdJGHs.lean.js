@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as h}from"./chunks/framework.PM4xAEU8.js";const F=JSON.parse('{"title":"scss","description":"","frontmatter":{},"headers":[],"relativePath":"基础/scss.md","filePath":"基础/scss.md"}'),n={name:"基础/scss.md"},k=h("",21),l=[k];function p(t,E,e,r,d,g){return a(),i("div",null,l)}const C=s(n,[["render",p]]);export{F as __pageData,C as default};

@@ -1,1 +1,0 @@
-import{_ as a,c as n,o as i,a1 as e}from"./chunks/framework.a2TuW1qh.js";const k=JSON.parse('{"title":"npm","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/npm.md","filePath":"基础/npm.md"}'),l={name:"基础/npm.md"},t=e("",13),s=[t];function o(p,r,h,m,d,c){return i(),n("div",null,s)}const _=a(l,[["render",o]]);export{k as __pageData,_ as default};

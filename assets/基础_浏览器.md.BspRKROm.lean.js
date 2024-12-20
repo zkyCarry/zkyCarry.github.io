@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as s,a1 as i}from"./chunks/framework.PM4xAEU8.js";const m=JSON.parse('{"title":"浏览器记录","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"基础/浏览器.md","filePath":"基础/浏览器.md"}'),n={name:"基础/浏览器.md"},l=i("",6),p=[l];function o(t,c,r,d,h,_){return s(),e("div",null,p)}const g=a(n,[["render",o]]);export{m as __pageData,g as default};
