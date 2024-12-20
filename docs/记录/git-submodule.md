@@ -6,11 +6,11 @@
 
 ## 具体使用
 + 1. 把一个公共的子模块，添加到项目，比如放到 src/common 目录下
-![alt text](image-2.png)
+![alt text](/image-2.png)
 + 2. 在page页面，直接引入公共子模块， common/下面的文件。
-![alt text](image.png)
+![alt text](/image.png)
 + 3 子模块的路径
-![alt text](image-1.png)
+![alt text](/image-1.png)
 
 ## 流程详细简介
 主仓库添加子模块，会生成 .gitmodules 文件

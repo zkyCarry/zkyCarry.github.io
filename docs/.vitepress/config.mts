@@ -50,6 +50,7 @@ export default defineConfig({
           { text: '使用mysql', link: '/记录/使用mysql.md' },
           { text: 'git-submodule', link: '/记录/git-submodule.md' },
           { text: '快速从unpkg拿到某个库的js文件', link: '/记录/快速从unpkg拿到某个库的js文件.md' },
+          { text: 'vscode插件开发', link: '/记录/vscode插件开发.md'}
         ]
       },
       {
